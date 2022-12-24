@@ -1,0 +1,83 @@
+Qus::=>  What is Emmet?
+Ans: => 
+Emmet is a plugin for many popular text editors which greatly improves React JS and HTML & CSS workflow.
+
+Qus::=> Difference between a Library and Framework?
+
+Ans: => A library is a collection of functions developers can call at will and still control the flow of the software application.
+ The operations performed to be performed by libraries are precisely and specifically defined.
+
+A framework is a structure in which the application defines the content of the operation by asking the developer to fill in the spaces. 
+The framework defines the concept with the functionality itself is defined by the developer with the end-user in mind.
+
+
+Qus::=> What is CDN? Why do we use it?
+
+Ans: => A CDN, or content delivery network, is a network or collection of servers in locations all over the world. Also known as a content distribution network, a CDN can refer to many types of content delivery services, such as load balancing and video streaming.
+
+
+A CDN’s network of servers allows companies to deliver content from their websites and mobile applications to people more quickly and efficiently, based on their geographic location. In short, a CDN moves data and applications closer to the end user — increasing speed, enhancing security, and improving the user experience.
+
+Qus::=> Why is React known as React?
+
+Ans: => Becuse we building user interfaces differently by breaking them into components. This means React uses a real, full featured programming language to render views.
+
+Qus::=> What is crossorigin in script tag?
+
+Ans => The crossorigin attribute sets the mode of the request to an HTTP CORS Request.
+
+Qus::=> What is diference between React and ReactDOM?
+
+Ans: => React: React is a javascript library, designed for building better user interfaces.
+
+React-DOM: React-DOM is a complimentary library to React which glues React to the browser DOM.
+React-DOM binds the idea of React to a web browser. And ideally, React has nothing to do with a browser.
+
+Qus::=> What is difference between react.development.js and react.production.js files via CDN?
+
+Ans : => Development build runs the code as a Development environment and it is very slow. The production environment executes the code and is used by developers and QA people It Development, supports
+
+Generating Source Maps files for CSS, and helping developers to debug the code about original files
+Hot reloading enables you to reload changes without restarting the server
+Debugger available to debug the code in the browser console
+It creates a single bundle.js file
+Enable React Developer tools
+React DevTools Profiler
+
+Production build is for running the code on client browsers with more performance improvements.
+
+The production environment executes the code and is used by end users or customers
+
+It has separate bundle files for app and vendor instead of a single bundle file
+Minification and compression of javascript and HTML resources to reduce the size of a file.
+Source Map can be disabled at runtime to reduce the size of the code
+Also, Gzipping code to compress and reduce the size.
+
+What is async and defer?
+
+Ans : => The defer attribute tells the browser not to wait for the script. Instead, the browser will continue to process the HTML, build DOM. The script loads “in the background”, and then runs when the DOM is fully built.
+
+The async attribute is somewhat like defer. It also makes the script non-blocking. But it has important differences in the behavior.
+
+The async attribute means that a script is completely independent:
+
+The browser doesn’t block on async scripts (like defer).
+Other scripts don’t wait for async scripts, and async scripts don’t wait for them.
+DOMContentLoaded and async scripts don’t wait for each other:
+DOMContentLoaded may happen both before an async script (if an async script finishes loading after the page is complete)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
